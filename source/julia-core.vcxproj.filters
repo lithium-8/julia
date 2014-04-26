@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{cfa83df5-4c8f-43d4-9786-642c28062b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exdep">
+      <UniqueIdentifier>{1e4f2998-062e-47ce-b0e2-b9adca848949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exdep\GL">
+      <UniqueIdentifier>{651e5b8d-3f26-4cd7-8850-8e89cdef9897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{d450f63d-fca2-4f4b-a74d-72b488ce9228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\win32">
+      <UniqueIdentifier>{73e2671f-8904-4254-abb3-fcce255fef31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\defines.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\includes.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\macroses.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="exdep\GL\glext.h">
+      <Filter>exdep\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="exdep\GL\wglext.h">
+      <Filter>exdep\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="core\core.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\errors_stack.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\logger.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="julia.hpp" />
+    <ClInclude Include="utils\win32\win32_vars.hpp">
+      <Filter>utils\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\platform.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\core.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\errors_stack.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\logger.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\win32\win32_gl.cpp">
+      <Filter>utils\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\win32\win32_window.cpp">
+      <Filter>utils\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\win32\win32.cpp">
+      <Filter>utils\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

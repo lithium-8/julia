@@ -1,0 +1,18 @@
+﻿Сборка начата 26.04.2014 23:47:24.
+     1>Проект "C:\Projects\julia\source\julia-core.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JULIACORE_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\binary\debug\\" /Fd"..\binary\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt utils\win32\win32_window.cpp
+         win32_window.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\binary\juliad.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\binary\juliad.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\binary\juliad.lib" /MACHINE:X86 /DLL ..\binary\debug\core.obj
+         ..\binary\debug\errors_stack.obj
+         ..\binary\debug\logger.obj
+         ..\binary\debug\win32.obj
+         ..\binary\debug\win32_gl.obj
+         ..\binary\debug\win32_window.obj
+         julia-core.vcxproj -> C:\Projects\julia\source\..\binary\juliad.dll
+     1>Сборка проекта "C:\Projects\julia\source\julia-core.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:00.67
